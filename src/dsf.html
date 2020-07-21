@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var counter = 0;
+while(SecretQuestion !== "abstraction"){
+  var SecretQuestion = prompt("What is the secret   password?");
+  counter +=1;
+
+  if(SecretQuestion == "abstraction"){
+  document.write("You may enter");
+}
+  if(counter === 3) {
+   document.write("You shall not pass")
+   break
+ }
+
+}
+</script>
+</body>
+</html>
